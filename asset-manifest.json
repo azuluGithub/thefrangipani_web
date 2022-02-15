@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/thefrangipani_web/static/css/main.657c66f7.chunk.css",
+    "main.js": "/thefrangipani_web/static/js/main.fe9a96c9.chunk.js",
+    "main.js.map": "/thefrangipani_web/static/js/main.fe9a96c9.chunk.js.map",
+    "runtime-main.js": "/thefrangipani_web/static/js/runtime-main.46ae57f6.js",
+    "runtime-main.js.map": "/thefrangipani_web/static/js/runtime-main.46ae57f6.js.map",
+    "static/js/2.b9ae9317.chunk.js": "/thefrangipani_web/static/js/2.b9ae9317.chunk.js",
+    "static/js/2.b9ae9317.chunk.js.map": "/thefrangipani_web/static/js/2.b9ae9317.chunk.js.map",
+    "static/js/3.86b8ac95.chunk.js": "/thefrangipani_web/static/js/3.86b8ac95.chunk.js",
+    "static/js/3.86b8ac95.chunk.js.map": "/thefrangipani_web/static/js/3.86b8ac95.chunk.js.map",
+    "index.html": "/thefrangipani_web/index.html",
+    "static/css/main.657c66f7.chunk.css.map": "/thefrangipani_web/static/css/main.657c66f7.chunk.css.map",
+    "static/js/2.b9ae9317.chunk.js.LICENSE.txt": "/thefrangipani_web/static/js/2.b9ae9317.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46ae57f6.js",
+    "static/js/2.b9ae9317.chunk.js",
+    "static/css/main.657c66f7.chunk.css",
+    "static/js/main.fe9a96c9.chunk.js"
+  ]
+}
