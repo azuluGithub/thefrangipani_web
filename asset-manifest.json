@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.657c66f7.chunk.css",
-    "main.js": "./static/js/main.5f6aed4f.chunk.js",
-    "main.js.map": "./static/js/main.5f6aed4f.chunk.js.map",
+    "main.js": "./static/js/main.7255f27c.chunk.js",
+    "main.js.map": "./static/js/main.7255f27c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0dd5bd6f.js",
     "runtime-main.js.map": "./static/js/runtime-main.0dd5bd6f.js.map",
     "static/js/2.1f4c5f9e.chunk.js": "./static/js/2.1f4c5f9e.chunk.js",
@@ -11,12 +11,19 @@
     "static/js/3.86b8ac95.chunk.js.map": "./static/js/3.86b8ac95.chunk.js.map",
     "index.html": "./index.html",
     "static/css/main.657c66f7.chunk.css.map": "./static/css/main.657c66f7.chunk.css.map",
-    "static/js/2.1f4c5f9e.chunk.js.LICENSE.txt": "./static/js/2.1f4c5f9e.chunk.js.LICENSE.txt"
+    "static/js/2.1f4c5f9e.chunk.js.LICENSE.txt": "./static/js/2.1f4c5f9e.chunk.js.LICENSE.txt",
+    "static/media/conditioners.40dae8c4.png": "./static/media/conditioners.40dae8c4.png",
+    "static/media/faceIcon.bb4e94c0.png": "./static/media/faceIcon.bb4e94c0.png",
+    "static/media/headerBg1.085669ad.png": "./static/media/headerBg1.085669ad.png",
+    "static/media/kidIcon.5626d8d2.png": "./static/media/kidIcon.5626d8d2.png",
+    "static/media/lipBalms.07860236.png": "./static/media/lipBalms.07860236.png",
+    "static/media/meltAndPourShampooBars.f775ca8b.png": "./static/media/meltAndPourShampooBars.f775ca8b.png",
+    "static/media/star.938ace45.png": "./static/media/star.938ace45.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0dd5bd6f.js",
     "static/js/2.1f4c5f9e.chunk.js",
     "static/css/main.657c66f7.chunk.css",
-    "static/js/main.5f6aed4f.chunk.js"
+    "static/js/main.7255f27c.chunk.js"
   ]
 }
