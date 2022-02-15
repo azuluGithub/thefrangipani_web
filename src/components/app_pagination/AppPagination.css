@@ -1,0 +1,47 @@
+.app-pagination-container {
+    width: 100%;
+}
+
+.paginationButtons {
+    height: 40px;
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationButtons a {
+    padding: 6px;
+    margin: 0 8px;
+    border-radius: 5px;
+    border: 1px solid #0099ff;
+    color: #0099ff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationButtons a:hover {
+    color: #fff;
+    background-color: #0099ff;
+}
+
+.paginationActive a {
+    color: #fff;
+    background-color: #0099ff;
+}
+
+@media (max-width: 40em) {
+    .paginationButtons {
+        width: 100%;
+    }
+    .paginationButtons {
+        width: 100%;
+    }
+    .paginationButtons a {
+        padding: 4px;
+        margin: 0 6px;
+        border-radius: 5px;
+    }
+}

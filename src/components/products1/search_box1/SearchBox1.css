@@ -1,0 +1,11 @@
+.search-box-1-input {
+    width: 180px;
+    height: 18px;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-400);
+    padding: 5px 10px;
+    color: var(--clr-black);
+}

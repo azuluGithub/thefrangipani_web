@@ -1,0 +1,41 @@
+.header1-contacts {
+    margin: 1.6rem 0;				
+    display: flex;						
+    flex-direction: column;		
+}
+
+.header1-contact {
+    padding: 1rem 0;
+}
+
+.header1-contact-label {
+    text-transform: capitalize;
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-700);
+    color: var(--clr-black);
+    font-size: 0.875rem;
+}
+
+.header1-contact-detail {
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-400);
+    font-size: 0.875rem;
+}
+
+
+@media(min-width: 28.125rem) {					
+    .header1-contacts {							
+        flex-direction: row;				
+    }							
+    .header1-contacts > * {				
+        flex-basis: 100%; 				
+    }
+    .header1-contact {
+        padding: 0;				
+    }							
+    .header1-contacts > * + * {	
+        margin-left: 2em;
+        border-left: 0.0625rem solid dimgray;
+        padding: 0 2rem;				
+    }
+}

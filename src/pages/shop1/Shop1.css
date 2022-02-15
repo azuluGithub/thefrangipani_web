@@ -1,0 +1,12 @@
+.shop1 {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    background-color: var(--clr-purple-bg);
+}
+
+@media (max-width: 40em) {
+    .shop1 {
+        width: 100%;
+    }
+}

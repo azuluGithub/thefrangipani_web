@@ -1,0 +1,29 @@
+.upload-image {
+    background-color: tomato;
+}
+
+.upload-image-label {
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+}
+
+.uploaded-image-box {
+    padding: 10px 0;
+    background-color: rebeccapurple;
+}
+
+.cancel-uploaded-image-box {
+    width:30px;
+    height:30px;
+    border-radius: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel-uploaded-image-icon {
+    color: red;
+    cursor: pointer;
+}

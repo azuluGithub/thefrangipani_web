@@ -1,0 +1,44 @@
+.basic-info-card {
+    width: 70px;
+    height: 70px;
+    border-radius: 0.2rem;
+    animation: aboutRightContent 2s linear infinite;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.basic-info-card::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 0.2rem;
+    background-color: rgb(73, 73, 73);
+    z-index: -1;
+}
+
+.basic-info-img-container {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+}
+
+.basic-info-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.basic-info-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basic-info-detail {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

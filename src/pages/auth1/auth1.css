@@ -1,0 +1,129 @@
+.auth1 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.auth1-wrapper{
+    margin-inline: auto;
+    width: var(--container-width);
+    padding: 3rem 0;
+}
+
+.auth1-header {
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-600);
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    text-transform: capitalize;
+    color: var(--clr-purple-medium);
+}
+
+.auth1-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth1-form {
+    padding: 20px;
+    background-color: #fff;
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-500);
+    width: 60%;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.auth1-label {
+    color: rgba(100, 99, 99, 0.87);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.auth1-input {
+    background-color: #eee;
+    width: calc(100% - 16px);
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 5px 0 10px 0;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #bbb;
+}
+  
+:-ms-input-placeholder {
+    color: #bbb;
+}
+  
+::placeholder {
+    color: #bbb;
+}
+
+.auth1-input:focus {
+    border: 1px solid var(--clr-purple-light);
+    background-color: rgba(176, 69, 149, 0.493);
+}
+
+.auth1-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.auth1-btn {
+    text-transform: capitalize;
+    height: 32px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-white);
+    border:  none;
+    border-radius: 6px; 
+    outline: none;
+    background-color: var(--clr-purple-bold);
+    font-weight: var(--ff-primary-600);
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.auth1-link-forgot,
+.auth1-link {
+    text-decoration: underline;
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-600);
+    font-size: 13px;
+    padding: 0.4rem 0;
+    text-transform: capitalize;
+}
+
+.auth1-link {
+    color: #777;
+}
+
+.auth1-link-forgot {
+    color: #444;
+}
+
+.auth1-link-forgot:hover,
+.auth1-link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.auth1-btn:hover {
+    opacity: 0.6;
+}
+
+
+@media (max-width: 639px) {
+    .auth1-form {
+        width: 80%;
+    }
+}

@@ -1,0 +1,11 @@
+.testimony-stars {
+    display: flex;
+}
+
+.testmony-star {
+    padding: 2px;
+}
+
+.testimony-star-image {
+    width: 16px;
+}

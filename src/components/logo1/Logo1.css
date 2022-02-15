@@ -1,0 +1,18 @@
+
+
+.logo1-big {
+    display: block;
+}
+
+.logo1-small {
+    display: none;
+}
+
+@media (max-width: 40em) {
+    .logo1-small {
+        display: block;
+    }
+    .logo1-big {
+        display: none;
+    }
+}

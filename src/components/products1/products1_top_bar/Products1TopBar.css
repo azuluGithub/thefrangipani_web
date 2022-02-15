@@ -1,0 +1,29 @@
+.products-1-top-bar {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-top:  1px solid #eee;
+    border-bottom:  1px solid #eee;
+}
+
+.products-1-top-bar-wrapper {
+    margin-inline: auto;
+    width: var(--container-width);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+@media (max-width: 520px) {
+    .products-1-top-bar-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products1-box,
+    .products1-box {
+        padding: 10px 0;
+    }
+}

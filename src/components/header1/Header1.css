@@ -1,0 +1,197 @@
+.header1 {
+    width: 100%;
+    min-height: calc(100vh - 3.125rem);
+}
+
+.header1-wrapper {
+    margin-inline: auto;
+    width: var(--container-width);
+}
+
+.header1-split {								
+    display: flex;						
+    flex-direction: column;			
+}
+
+.header1-content {
+    margin-top: 3.75rem;
+}
+
+.header1-app-name-top {
+    text-transform: capitalize;
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-600);
+    font-size: 3rem;
+    color: var(--clr-white);
+    text-shadow:
+        -1px -1px 0 var(--clr-purple-bold),  
+        1px -1px 0 var(--clr-purple-bold),
+        -1px 1px 0 var(--clr-purple-bold),
+        1px 1px 0 var(--clr-purple-bold);
+    line-height: 3rem;
+}
+
+.header1-app-name-bottom {
+    font-family: var(--ff-secondary);
+    font-weight: var(--ff-secondary-600);
+    color: var(--clr-purple-bold);
+    letter-spacing: -0.3125rem;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    line-height: 0rem;
+}
+
+.header1-app-name-part {
+    color: var(--clr-white);
+    text-shadow:
+        -1px -1px 0 var(--clr-purple-bold),  
+        1px -1px 0 var(--clr-purple-bold),
+        -1px 1px 0 var(--clr-purple-bold),
+        1px 1px 0 var(--clr-purple-bold);
+}
+
+.header1-intro {
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-400);
+    color: var(--clr-black);
+    font-size: 0.875rem;					
+    max-width: 30rem;
+    padding: 1.6rem 0;
+}
+
+.header1-button-wrapper {
+    filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.5));
+}
+
+.header1-button {
+    position: relative;
+    text-transform: capitalize;
+    height: 42px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-white);
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-600);
+    font-size: 0.75rem;
+    margin-bottom: 1.6rem;
+    cursor: pointer;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 89% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 89% 100%, 0% 100%);
+}
+
+.header1-button::before {
+    position: absolute;
+    content: 'Shop Now';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-purple-bold);
+    -webkit-clip-path: inset(0 round 6px 6px 25px 6px);
+    clip-path: inset(0 round 6px 6px 25px 6px);
+}
+
+.header1-button:hover::before {
+    opacity: 0.6;
+}
+
+.header1-image-box {
+    position: relative;
+}
+
+.header1-bg {							
+    display: block;
+    float: right;					
+    max-width: 100%;
+    max-height: 90vh;
+}
+
+.header-image-big-letter {
+    position: absolute;
+    top: 0.625rem;
+    left: 0;
+    text-transform: capitalize;
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-600);
+    font-size: 20rem;
+    color: var(--clr-white);
+    text-shadow:
+        -1px -1px 0 var(--clr-purple-bold),  
+        1px -1px 0 var(--clr-purple-bold),
+        -1px 1px 0 var(--clr-purple-bold),
+        1px 1px 0 var(--clr-purple-bold);
+    z-index: -1;
+    letter-spacing: -3.125rem;
+}
+
+.header-image-small-letter {
+    font-size: 15rem;
+    font-family: var(--ff-secondary);
+    font-weight: var(--ff-secondary-600);
+    color: var(--clr-purple-bold);
+}
+
+@media(max-width: 64rem) {	
+    .header-image-big-letter {
+        font-size: 14rem;
+    }
+    
+    .header-image-small-letter {
+        font-size: 13rem;
+    }
+}
+
+@media(max-width: 59.375rem) {	
+    .header-image-big-letter {
+        font-size: 12rem;
+    }
+    
+    .header-image-small-letter {
+        font-size: 10rem;
+    }
+}
+
+@media(max-width: 56.25rem) {	
+    .header-image-big-letter {
+        font-size: 11rem;
+    }
+    
+    .header-image-small-letter {
+        font-size: 10rem;
+    }
+}
+
+@media(min-width: 53.4375rem) {					
+    .header1-split {							
+        flex-direction: row;				
+    }							
+    .header1-split > * {				
+        flex-basis: 100%; 				
+    }							
+    .header1-split > * + * {	
+        margin-left: 2em;				
+    }
+}
+
+@media(max-width: 53.375rem) {					
+    .header1-image-box {
+        display: none;
+    }
+}
+
+@media(max-width: 40rem) {					
+    .header1-image-box {
+        display: none;
+    }
+    .header1-app-name-top {
+        font-size: 2rem;
+    }
+    .header1-app-name-bottom {
+        font-size: 3rem;
+    }
+}

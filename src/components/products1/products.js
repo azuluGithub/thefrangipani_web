@@ -1,0 +1,233 @@
+export const testProducts = [
+	{
+        _id: 'dfugfdfghjkiuyfbhghhhhhtr345',
+        title: 'Melt and Pour Based Shampoo Bars',
+        imgUrl: '/assets/images/products/melt-and-pour-shampoo-bars.png',
+        description: 'These are simple shampoo Bars using a M&P soap base with a mixture of oils to aid in having beautiful looking hair. The essential oils also cater for the desired need/ affect wanted from these bars.',
+        category: { name: 'hair and face' },
+        price: 50,
+        priceQuantity: ' for 4',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfghtrnnnn3ghjkjhgghj456ujfcuij',
+        title: 'Cold Press /Traditional Shampoo Bars',
+        imgUrl: '/assets/images/products/traditional-shampoo-bars.png',
+        description: 'These shampoo Bars are made with a mixture of various oils and Lye. They are cured and are luxurious on the hair. Again careful selection of butters and oils are used to best treat your hair with love. The Essential Oils also care and nourish for beautiful hair development.',
+        category: { name: 'Hair and Face' },
+        price: 0,
+        priceQuantity: '',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfght;lkjhpjhvhhhyhur345kkkk6ujfc',
+        title: 'Conditioners',
+        imgUrl: '/assets/images/products/conditioners.png',
+        description: 'We have a range of conditioners ranging from the basic, yet effective Apple cider spray with essential oils. To the more liquid oil essential oils and aloe mixture for treatment of dry tips. To the conditioning bar filled with butters and oils for deep nourishing treatment of your beautiful hair.',
+        category: { name: 'Hair and Face' },
+        price: 0,
+        priceQuantity: '',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfghdfghszrtyyuuxcvhtrdcvhcgjhfd',
+        title: 'Waterproof eyeliner',
+        imgUrl: '/assets/images/products/waterproof-eyeliner.png',
+        description: 'This beautiful creamy eyeliner can be found in brown or black. Made with jojoba oil, beeswax and activated charcoal (black) or cocoa (brown). Application is done with a small eyeliner brush and it glides on with ease and feeds those special lashes!',
+        category: { name: 'Hair and Face' },
+        price: 20,
+        priceQuantity: ' for 5ml',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'ertgcdfgd345dwe5ujbfghkl;lkjhvc6ujfcgjhfd',
+        title: 'Push Up (10ml)  or Soft Tub (5ml) Lip Balms',
+        imgUrl: '/assets/images/products/lip-balms.png',
+        description: 'Made with Cocoa Butter, Shea or Mango Butter, Coconut oil, Bees Wax Essential oils like: Mentha Piperata (peppermint) oil, Sweet Orange oil  Vitamin E or Fragrances of: Apple, Black Cherry, Mango and Vanilla. Smooth gliding lip balm that nourishes and feeds dry chapped lips for all day comfort.',
+        category: { name: 'Hair and Face' },
+        price: 20,
+        priceQuantity: '',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'cghjkklhjwe456ygftyhvbjn',
+        title: 'Natural SPF Bar',
+        imgUrl: '/assets/images/products/natural-spf-bar.png',
+        description: 'This easy application SPF Bar is made of ingredients which naturally protect the skin from harmful UV Rays, like Coconut Oil,Cocoa Butter, Bees Wax, Zinc - Oxide and soothing essential oils of Lavandula Angustifolia (lavender) and Mentha Piperita (peppermint) oils which aid in healing any sun damage.',
+        category: { name: 'HAIR AND FACE' },
+        price: 40,
+        priceQuantity: ' (35gr)',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+    {
+        _id: 'dfghgghhjkliuhnmiuhnmkjhbdfgghjkfd',
+        title: 'Sugar Scrub Bars',
+        imgUrl: '/assets/images/products/sugar-scrub-bars.png',
+        description: 'For smooth invigorating skin use these sugar scrub bars in the shower or bath. Made with M&P soap base, coconut oil, sucrose and essential oils your body is guaranteed to feel clean soft and refreshed. We have, Ginger, Lemon-Lavender, Lavender, Juniper Berry and Tea Tree for your beautiful skin.',
+        category: { name: 'Body' },
+        price: 30,
+        priceQuantity: ' for 3',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+    {
+        _id: 'dfugfdfghjoiuytdcvbnkuygfgtr345',
+        title: 'Wet salt scrub',
+        imgUrl: '/assets/images/products/wet-soap-scrub.png',
+        description: 'Body Scubbing could not be easier with this salt scrub made with Sea salts, olive oil and essential oils. Feeding your skin as the dead cells are sloughed off for radiating skin.',
+        category: { name: 'Body' },
+        price: 30,
+        priceQuantity: ' for 100ml',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfghtrnytfdfbhytfgtyuikjfcuij',
+        title: 'Dry salt scrub',
+        imgUrl: '/assets/images/products/dry-salt-scrub.png',
+        description: 'Body Scubbing could not be easier with this salt scrub made with Sea salts, sweet almond  oil and essential oils and added botanicals. Feeding your skin as the dead cells are sloughed off for radiating skin.',
+        category: { name: 'Body' },
+        price: 30,
+        priceQuantity: ' for 100ml',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfghuytresxcgy654edfghuhcgjhfd',
+        title: 'Marbled Soaps',
+        imgUrl: '/assets/images/products/marbled-soaps.png',
+        description: 'Made with SLS free M&P soap base, Glycerine soap base, Shea Butter with a variety of  Mica colours creating a soothing, gentle marbled looking soap, with a variety of fragrances to freshen up your skin for the day.',
+        category: { name: 'Body' },
+        price: 50,
+        priceQuantity: '',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'ertgcdfgd3409876rescghkd',
+        title: 'Glycerine Soaps',
+        imgUrl: '/assets/images/products/glycerine-soap.png',
+        description: 'A glycerine M&P Soap base and a variety fragrances to choose from. Pictured is our Vanilla Chamomile and Rooibos soap used to cleanse and refresh irritated skin.',
+        category: { name: 'Body' },
+        price: 40,
+        priceQuantity: '',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'cghjkk123456tresdfghjhvbjn',
+        title: 'Basic Soap Bar',
+        imgUrl: '/assets/images/products/basic-soap-bar.png',
+        description: 'Made with SLS free M&P Soap base and Shea butter various fragrances like Black Cherry, Aromatic Woody fragrances and Vanilla you can gently wash the days troubles away, without drying out your skin of those much needed oils on your skin surface.',
+        category: { name: 'Body' },
+        price: 45,
+        priceQuantity: '',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+    {
+        _id: 'dfghgghhjkliuygfbjgbnjgsazxgghjkfd',
+        title: 'Bath Melts',
+        imgUrl: '/assets/images/products/bath-melts.png',
+        description: 'The Champaigne of bath times. This solid bath bomb is made with Cocoa Butter, Sweet Almond Oil, Soduim bicarbonate, Citric Acid, Emulsifying Wax and light mica colours and a variety of essential oils to soothe your tired body, help you feel warmed in the soul and refreshed.',
+        category: { name: 'Body' },
+        price: 50,
+        priceQuantity: ' for 3',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+    {
+        _id: 'dfugfdfghLIUYTFDBNMLUTRShhtr345',
+        title: 'Tub Truffles',
+        imgUrl: '/assets/images/products/tub-truffles.png',
+        description: 'Another inspirational way to relax in your bath time with Cocoa Butter, Sodium bicarbonate, Citric Acid, Corn starch,  Essential oils  and Botanicals to remove toxins from you body, soften the water and nourish your skin. Pampering yourself could not be easier! ',
+        category: { name: 'Body' },
+        price: 30,
+        priceQuantity: ' for 3',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfghtrnUTFDSCVBNM,KJHGG56ujfcuij',
+        title: 'Body Bars',
+        imgUrl: '/assets/images/products/body-bars.png',
+        description: 'Beautiful butters like Cocoa, Mango, Shea as well as Bees Wax, and Coconut oil, with fragrances and essential oils that will feed and nourish your skin. The bar along your skin to melt the amount you need to make your skin feel alive, you need to get yourself a body bar.',
+        category: { name: 'Body' },
+        price: 45,
+        priceQuantity: ' for 35gr',
+        priceAlt: 80,
+        priceAltQuantity: ' for 70gr'
+    },
+	{
+        _id: 'dfguytrdcvbnkuytfvbjuykkk6ujfc',
+        title: 'Exfoliating Worker’s Soap',
+        imgUrl: '/assets/images/products/exfoliating-workers-soap.png',
+        description: 'Made with SLS free M&P soap base, Shea Butter and Ground Pumice  with light yellow mica colouring, and light fragrances to deep clean hands or body of stubborn dirt and grime effectively.',
+        category: { name: 'Body' },
+        price: 40,
+        priceQuantity: '',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfloiutrdsxcvbnmewqASDF5kkkk6ujfc',
+        title: 'Bath Soaks',
+        imgUrl: '/assets/images/products/bath-soaks.png',
+        description: 'Pour A sachet of love into your bath, for softer water and a special bath time, with ingredients of Sodium Bicarbonate, Citric Acid, Corn Starch and essential oils your bath time will never be the same again.',
+        category: { name: 'BODY' },
+        price: 50,
+        priceQuantity: ' for 3 satchets',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'dfghdloiuytresxcvbnm,ghjkjhfd',
+        title: 'Bath Milks',
+        imgUrl: '/assets/images/products/bath-milks.png',
+        description: 'Feel like Royalty when stepping into your bath Goats Mils, Epsom Salt Corn Starch Sodium Bicarbonate, botanicals and essential oils guarantee a Bath time like no other, to make you feel like a King or Queen after a long day Your Skin is mildly exfoliated and nourished with the milk and the water softened with your body, mind and soul feeling renewed with the essential oils.',
+        category: { name: 'Body' },
+        price: 50,
+        priceQuantity: ' for 3 satchets',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'ertgpouytrdsxcvbnm,jhgfcvbgjhfd',
+        title: 'Organic Body Powder',
+        imgUrl: '/assets/images/products/organic-body-powder.png',
+        description: 'This effective  powder keeps the body fresh and healthy made with Corn starch,  Bentonite Clay, Cream of Tartar, with Tea tree and Peppermint Essential oils, or soothing calming oils like Lavender and chamomile.  Safe to use as a soothing baby nappy powder or detoxifying and fresh smelling foot powder.',
+        category: { name: 'Feet' },
+        price: 50,
+        priceQuantity: ' for 140gr',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+	{
+        _id: 'cghiutrdcvbnkugfvbnbjn',
+        title: 'Jumbo Bath Crayons',
+        imgUrl: '/assets/images/products/jumbo-bath-crayons.png',
+        description: 'These Jumbo bath crayons made of M&P soap base, bright Mica, Soap based Colours and soothing fragrances and Lavandula angustifolia (lavender) oil is perfect for being creatively clean at bath times. While your children explore in the bath the soothing fragrances and essential oils prepare their bodies for bedtime and peaceful sleep, allowing healthy balanced growth cycles.',
+        category: { name: 'Kids' },
+        price: 80,
+        priceQuantity: ' for 4',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    },
+    {
+        _id: 'df87654ewsdfghjkloiuyfdjkfd',
+        title: 'Jelly Soap Cubes',
+        imgUrl: '/assets/images/products/jelly-soap-cubes.png',
+        description: 'This fun time soap made with liquid soap base, gelatine, Lavandula Angustifolia (lavender) oil and mica colouring is perfect for little experimental minds. These soaps will melt and break in the bathe while kiddies learn with tactile and visual senses. The  soothing lavender also prepares kids for a peaceful nights rest and calms the body for bedtime. Bath times are exciting!',
+        category: { name: 'Kids' },
+        price: 40,
+        priceQuantity: ' for 4',
+        priceAlt: 0,
+        priceAltQuantity: ''
+    }
+];

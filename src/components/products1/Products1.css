@@ -1,0 +1,8 @@
+.products1-wrapper {
+    margin-inline: auto;
+    width: var(--container-width);
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

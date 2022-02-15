@@ -1,0 +1,126 @@
+.product1 {
+    margin: 30px 20px;
+    background-color: var(--clr-white);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product1-container {								
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;			
+}
+
+.product1-img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;				
+}
+
+.product1-content {
+    width: 230px;
+    padding: 10px 10px 10px 20px;
+}
+
+.product1-category {
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    font-family: var(--ff-secondary);
+    font-weight: var(--ff-secondary-400);
+    color: #555;
+    font-size: 12px;
+}
+
+.product1-title {
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-700);
+    color: var(--clr-purple-medium);
+    font-size: 1rem;
+    padding: 2px 0 10px 0;
+}
+
+.product1-description {
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-400);
+    color: var(--clr-black);
+    font-size: 13px;
+    padding-bottom: 16px;
+}
+
+.product1-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product1-price-container {
+    display: flex;
+    align-items: center;
+}
+
+.product1-empty-span {
+    background-color: var(--clr-purple-medium);
+    border-radius: 0.25rem;
+    width: 20px;
+    height: 2px;
+    margin: 0 5px 0 0;
+}
+
+.product1-price {
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-600);
+    color: var(--clr-black);
+    font-size: 1rem;
+}
+
+.product1-price-quantity {
+    text-transform: lowercase;
+    font-family: var(--ff-secondary);
+    font-weight: var(--ff-secondary-400);
+    color: #555;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.product1-button {
+    position: relative;
+    text-transform: capitalize;
+    height: 30px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-white);
+    color: var(--clr-purple-medium);
+    font-family: var(--ff-primary);
+    font-weight: var(--ff-primary-500);
+    font-size: 11px;
+    outline: none;
+    border: 0.0625rem solid var(--clr-purple-medium);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.product1-button:hover {
+    background-color: var(--clr-purple-medium);
+    color: var(--clr-white);
+}
+
+@media (max-width: 440px) {
+    .product1-container {								
+        display: flex;
+        flex-direction: column;
+        height: auto;			
+    }
+    .product1-img {
+        width: 200px;
+        height: auto;				
+    }
+    .product1-content {
+        width: 240px;
+        padding: 10px;
+    }
+}
